@@ -1,0 +1,28 @@
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #821111; /* Cambia el color de fondo si lo deseas */
+  border-bottom: 2px solid #ccc; /* Línea inferior para separar */
+}
+
+.logo {
+  height: 50px; /* Ajusta la altura según sea necesario */
+}
+
+.login-header h3 {
+    color: white; /* Cambia el color del texto */
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    margin: 0;
+    font-weight: bold; /* Negrita para resaltar */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    letter-spacing: 1px; /* Espaciado entre letras */
+  }
+
+
+
+
+
+
+
