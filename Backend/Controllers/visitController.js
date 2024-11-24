@@ -12,9 +12,10 @@ exports.createVisit = async (req, res) => {
 
 exports.getVisits = async (req, res) => {
   try {
-    const visits = await Visit.find().populate("client", "name email");
-    res.status(200).json(visits);
+    const visits = await Visit.find().populate("client", "name email"); // Poblar el cliente
+    res.status(200).json(visits); // Devolver las visitas
   } catch (err) {
-    res.status(500).json({ error: "Error al obtener las visitas" });
+    console.error("Error al obtener visitas:", err.message);
+    res.status(500).json({ error: "Error al obtener visitas" });
   }
 };
