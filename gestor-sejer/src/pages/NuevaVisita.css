@@ -1,0 +1,107 @@
+/* Estilo principal para el formulario */
+.nueva-visita-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Etiquetas y campos de texto */
+  label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Estilos generales para inputs, selects y textareas */
+  input, select, textarea {
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  /* Estilo para los recuadros (fieldset) */
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los legends de los fieldsets */
+  legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Botón de submit */
+  button {
+    background-color: #4e73df;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%; /* Hacer el botón al 100% de ancho */
+  }
+  
+  button:hover {
+    background-color: #2e59d9;
+  }
+  
+  /* Contenedores de los recuadros específicos (antecedentes, descripcion, observaciones, etc.) */
+  .antecedentes-container, .descripcion-container, .observaciones-container, .firmas-container, .uso-interno-container, .checklist-container {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para las etiquetas dentro de los recuadros */
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Estilo para los checkboxes en el checklist */
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  /* Ajuste de ancho para inputs y otros campos dentro de recuadros */
+  textarea, input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Botón general */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
