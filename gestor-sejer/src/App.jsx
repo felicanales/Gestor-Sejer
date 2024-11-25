@@ -5,6 +5,8 @@ import Home from './pages/Home'; // Asegúrate de que la ruta sea correcta
 import Register from './pages/Register'; // Asegúrate de que la ruta sea correcta
 import Dashboard from './pages/Dashboard'; // Importa el componente Dashboard
 import NuevaVisita from "./pages/NuevaVisita"; 
+import './App.css';
+
 
 const App = () => {
   return (

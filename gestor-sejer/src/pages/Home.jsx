@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom'; // Importa el componente Link
 import './Home.css'; 
 
+
 const Login = () => {
 
   const [email, setEmail] = useState(""); // Estado para email

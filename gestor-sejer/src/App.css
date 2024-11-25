@@ -1,61 +1,80 @@
 /* src/App.css */
+
+/* Estilo global para el body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #eaeaea; /* Fondo gris claro, más limpio y neutral */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;  /* Altura de la pantalla completa */
   margin: 0;
 }
 
+/* Estilos de la aplicación */
 .App {
   text-align: center;
   margin: 20px;
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  max-width: 1200px;  /* Controla el tamaño máximo de la aplicación */
 }
 
+/* Estilo del título h2 */
 h2 {
   margin-bottom: 20px;
+  color: #333; /* Color del texto del título */
 }
 
+/* Estilos para el formulario */
 form {
   background-color: white;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 300px; /* Ajusta el ancho según lo necesites */
+  border-radius: 8px;  /* Bordes más redondeados para un look más suave */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más suave para dar profundidad */
+  width: 100%;
+  max-width: 400px;  /* Ajuste el tamaño máximo del formulario */
+  margin: auto;
 }
 
+/* Estilo para los divs dentro del formulario */
 div {
   margin: 10px 0;
 }
 
+/* Estilos para las etiquetas de los inputs */
 label {
   display: block;
   margin-bottom: 5px;
+  color: #555;  /* Color más oscuro para las etiquetas */
 }
 
+/* Estilo de los inputs */
 input {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 14px;  /* Tamaño de fuente ligeramente más pequeño */
+  box-sizing: border-box;  /* Asegura que el padding no afecte al tamaño del input */
 }
 
+/* Estilo de los botones */
 button {
-  background-color: #a72828; /* Color verde */
+  background-color: #4CAF50;  /* Verde claro, más profesional */
   color: white;
   border: none;
-  padding: 10px;
-  border-radius: 4px;
+  padding: 12px;
+  border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  font-size: 16px;
 }
 
 button:hover {
-  background-color: #882121; /* Color verde oscuro al pasar el mouse */
+  background-color: #45a049; /* Verde más oscuro al pasar el ratón */
 }
 
+/* Estilo de los mensajes de error */
 .error {
   color: red;
   margin-top: 10px;
